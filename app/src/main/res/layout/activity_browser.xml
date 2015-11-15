@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/wv_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+<!--<include layout="@layout/progressdialog" android:id="@+id/dg_gress"></include>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:background="#DDDDDD"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<Button-->
+            <!--android:id="@+id/home"-->
+            <!--android:layout_width="30dip"-->
+            <!--android:layout_height="30dip"-->
+            <!--android:background="@drawable/personal_home_btn" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/back"-->
+            <!--android:layout_width="30dip"-->
+            <!--android:layout_height="30dip"-->
+            <!--android:layout_marginLeft="15dip"-->
+            <!--android:background="@drawable/personal_back_btn" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/top"-->
+            <!--android:layout_width="30dip"-->
+            <!--android:layout_height="30dip"-->
+            <!--android:layout_marginLeft="15dip"-->
+            <!--android:background="@drawable/personal_top_btn" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/refresh"-->
+            <!--android:layout_width="30dip"-->
+            <!--android:layout_height="30dip"-->
+            <!--android:layout_marginLeft="15dip"-->
+            <!--android:background="@drawable/personal_refresh_btn" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/close"-->
+            <!--android:layout_width="30dip"-->
+            <!--android:layout_height="30dip"-->
+            <!--android:layout_marginLeft="15dip"-->
+            <!--android:background="@drawable/personal_close_btn" />-->
+    <!--</LinearLayout>-->
+
+</FrameLayout><!-- From: file:/E:/workspace/androidstudiowork/youlebao3/passenger/src/main/res/layout/activity_browser.xml -->

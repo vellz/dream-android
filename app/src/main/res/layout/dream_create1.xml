@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="下一步" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开启梦想"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#c6c6c6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:textColor="@color/gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我要坚持：" />
+
+            <EditText
+                android:id="@+id/ed_dream"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/edit_bg"
+                android:padding="6dp" />
+
+
+
+            <TextView
+                android:textColor="@color/gray"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="梦想宣言" />
+
+            <EditText
+                android:id="@+id/ed_dream_spak"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/edit_bg"
+                android:padding="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/gray"
+
+                    android:layout_height="wrap_content"
+                    android:text="持续时间：" />
+
+                <EditText
+                    android:inputType="number"
+
+                    android:id="@+id/ed_dream_time"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_bg"
+                    android:padding="2dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/gray"
+                    android:paddingLeft="4dp"
+                    android:layout_height="wrap_content"
+                    android:text="天" />
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/sh_hide"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:layout_marginTop="20dp"
+                android:text="公开梦想" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

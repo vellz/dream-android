@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">梦想订单</string>
+
+    <string name="home">首页</string>
+    <string name="flydream">放飞梦想</string>
+    <string name="my">我的空间</string>
+    <string name="title_activity_create_dream">CreateDreamActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
